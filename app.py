@@ -1,4 +1,4 @@
-import streamlit as st
+mport streamlit as st
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
@@ -11,7 +11,7 @@ st.set_page_config(page_title="Linee Lecco Tech", layout="wide")
 # Layout header
 col1, col2 = st.columns([1, 5])
 with col1:
-    st.image("assets/lineelecco_logo.png", width=150)
+    st.image("lineelecco_logo.png", width=150)
 with col2:
     st.markdown("### **Linee Lecco Tech – Assistenza Tecnica Intelligente**")
     st.markdown("👤 _Tester: Roberto Valentinuzzi_")
